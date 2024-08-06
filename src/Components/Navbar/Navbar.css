@@ -21,3 +21,8 @@ nav ul li{
 }
 
 
+.dark-nav{
+    background-color: #212ea0;
+    transition: 0.5s;
+}
+
