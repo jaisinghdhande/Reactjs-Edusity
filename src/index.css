@@ -35,7 +35,17 @@ a {
   justify-content: center;
 }
 
-.btn img{
-    width: 20px;
-    margin-left: 10px;
+.btn img {
+  width: 20px;
+  margin-left: 10px;
+}
+
+/* .dark {
+  background-color: #212ea0;
+  color: white;
+} */
+
+.btn.dark-btn {
+  background-color: #212ea0;
+  color: white;
 }

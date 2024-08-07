@@ -1,0 +1,16 @@
+.campus {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 60px auto;
+  width: 90%;
+}
+
+.campus img {
+  width: 23%;
+  border-radius: 10px;
+}
+
+.outer-box{
+    text-align: center;
+}
