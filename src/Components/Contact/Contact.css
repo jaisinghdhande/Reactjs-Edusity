@@ -1,0 +1,16 @@
+.contact-left div{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.contact-left img{
+    width: 30px;
+    margin: 0 10px;
+}
+
+.contact-left p{
+    max-width: 500px;
+    margin: 15px 0;
+}
