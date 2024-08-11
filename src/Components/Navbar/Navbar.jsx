@@ -2,6 +2,7 @@ import "./Navbar.css";
 import logo from "../../assets/logo.png";
 import { useState } from "react";
 import { useEffect } from "react";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [isDark, setIsDark] = useState(false);
@@ -17,19 +18,29 @@ const Navbar = () => {
       <img alt="nav-logo" src={logo} className="logo"></img>
       <ul>
         <li>
-          <button className="btn">Home</button>
+          <Link to="hero" smooth={true} duration={500} offset={-190}>
+            Home
+          </Link>
         </li>
         <li>
-          <button className="btn">Program</button>
+          <Link to="programs" smooth={true} duration={500} offset={-190}>
+            Program
+          </Link>
         </li>
         <li>
-          <button className="btn">About Us</button>
+          <Link to="about" smooth={true} duration={500} offset={-190}>
+            About Us
+          </Link>
         </li>
         <li>
-          <button className="btn">Campus</button>
+          <Link to="outer-box" smooth={true} duration={500} offset={-190}>
+            Campus
+          </Link>
         </li>
         <li>
-          <button className="btn">Testimonial</button>
+          <Link to="testimonial" smooth={true} duration={500} offset={-190}>
+            Testimonial
+          </Link>
         </li>
         <li>
           <button className="btn">Contact Us</button>
